@@ -4,6 +4,7 @@ on:
 
 permissions:
   id-token: write
+  #Was changed from read to write to create a checkout -b to gh-pahes
   contents: write
 
 jobs:
