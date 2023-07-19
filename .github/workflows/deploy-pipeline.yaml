@@ -119,7 +119,7 @@ jobs:
 
   docs:
     runs-on: ubuntu-latest
-    needs: lint
+    needs: deploy
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
